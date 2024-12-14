@@ -37,7 +37,7 @@ CKEDITOR_5_CONFIGS = {
                 {'model': 'heading6', 'view': 'h6', 'title': 'Heading 6', 'class': 'ck-heading_heading6'}
             ]
         },
-        'placeholder': 'متن خود را وارد کنید...',
+        'placeholder': 'Enter Your Text...',
     }
 }
 
