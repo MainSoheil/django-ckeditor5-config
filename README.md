@@ -49,3 +49,11 @@ CKEDITOR_5_CONFIGS = {
 
 # Custom CSS for Dark Mode Fix
 CKEDITOR_5_CUSTOM_CSS = 'css/admin_dark_mode_fix.css'
+```
+
+### 1. Add This Css Property To admin_dark_mode_fix.css File
+
+In your Django static/css folder, add the following css property to admin_dark_mode_fix.css file:
+```css
+.ck.ck-editor {color: black !important;}
+```
