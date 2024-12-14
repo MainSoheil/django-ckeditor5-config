@@ -51,9 +51,11 @@ CKEDITOR_5_CONFIGS = {
 CKEDITOR_5_CUSTOM_CSS = 'css/admin_dark_mode_fix.css'
 ```
 
-### 1. Add This Css Property To admin_dark_mode_fix.css File
-
-In your Django static/css folder, add the following css property to admin_dark_mode_fix.css file:
+### 2. Add This Css Property To admin_dark_mode_fix.css File
+1. In your Django project's static folder, create a directory named css.
+2. Inside the css folder, create a file called admin_dark_mode_fix.css.
+3. Inside the css folder, create a file called admin_dark_mode_fix.css:
 ```css
 .ck.ck-editor {color: black !important;}
 ```
+Adding this CSS property resolves the white text issue in the CKEditor5 editor within the Django admin panel. By default, both the text and background are white, making the text invisible. This fix ensures the text is clearly visible.
