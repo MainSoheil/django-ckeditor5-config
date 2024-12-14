@@ -3,6 +3,25 @@ Full-featured CKEditor5 configuration for Django.
 
 This repository provides a full-featured configuration for CKEditor5 in Django, including a custom toolbar, dark mode fix for the Django admin panel.
 
+installation:
+```bash
+pip install django-ckeditor-5
+```
+
+adding to installed apps in django setting:
+```python
+INSTALLED_APPS = [
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
+    # other apps ...
+    "django_ckeditor_5"
+]
+```
+
 ## Features
 
 - **Full Toolbar**: Includes a wide range of options, such as undo/redo, text formatting, alignment, lists, and more.
@@ -14,7 +33,6 @@ This repository provides a full-featured configuration for CKEditor5 in Django, 
 ### 1. Add CKEditor5 Config to Your Django Project
 
 In your Django settings file, add the following configuration:
-
 ```python
 # CKEditor5 Full Configuration
 CKEDITOR_5_CONFIGS = {
@@ -54,7 +72,7 @@ CKEDITOR_5_CUSTOM_CSS = 'css/admin_dark_mode_fix.css'
 ### 2. Add This Css Property To admin_dark_mode_fix.css File
 1. In your Django project's static folder, create a directory named css.
 2. Inside the css folder, create a file called admin_dark_mode_fix.css.
-3. Inside the css folder, create a file called admin_dark_mode_fix.css:
+3. Inside the css folder, create a file called admin_dark_mode_fix.css.
 ```css
 .ck.ck-editor {color: black !important;}
 ```
