@@ -34,7 +34,7 @@ CKEDITOR_5_CONFIGS = {
             ],
             'shouldNotGroupWhenFull': True
         },
-        'language': 'fa',
+        'language': 'en',
         'image': {
             'toolbar': [
                 'imageTextAlternative', 'imageStyle:full', 'imageStyle:side'
