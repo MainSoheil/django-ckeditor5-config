@@ -52,7 +52,7 @@ CKEDITOR_5_CONFIGS = {
             ],
             'shouldNotGroupWhenFull': True
         },
-        'language': 'en',
+        'language': 'en', # set any language you want
         'image': {
             'toolbar': [
                 'imageTextAlternative', 'imageStyle:full', 'imageStyle:side'
@@ -61,7 +61,7 @@ CKEDITOR_5_CONFIGS = {
         'table': {
             'contentToolbar': ['tableColumn', 'tableRow', 'mergeTableCells']
         },
-        'placeholder': 'متن خود را وارد کنید...',
+        'placeholder': 'Enter Your Text...',
     }
 }
 
